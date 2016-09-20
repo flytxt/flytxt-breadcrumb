@@ -1,0 +1,21 @@
+{
+  "name": "flytxt-breadcrumb",
+  "version": "1.0.0",
+  "authors": [
+    "Priyanka C V"
+  ],
+  "keywords": [
+    "flytxt",
+    "breadcrumb"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flytxt/flytxt-breadcrumb.git"
+  },
+  "main": "flytxt-breadcrumb.html",
+  "license": "MIT",
+  "homepage": "https://github.com/flytxt/flytxt-breadcrumb",
+  "ignore": [
+    "/.*"
+  ]
+}

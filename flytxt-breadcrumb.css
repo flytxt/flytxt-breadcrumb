@@ -1,0 +1,17 @@
+paper-button.previous{
+  background-color: var(--breadcrumb-previous-bgcolor, transparent);
+  color: var(--breadcrumb-previous-color, white);
+  @apply(--breadcrumb-previous);
+}
+paper-button.current{
+  background-color: var(--breadcrumb-current-bgcolor, transparent);
+  color: var(--breadcrumb-current-color, grey);
+  @apply(--breadcrumb-current);
+}
+paper-button {
+  font-size: 0.8em;
+  @apply(--breadcrumb-button);
+}
+iron-icon {
+  @apply(--breadcrumb-icon);
+}
