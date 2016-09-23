@@ -1,7 +1,7 @@
 Polymer({
   is: 'flytxt-breadcrumb',
   
-  behaviors: [Flytxt.webL10n, Flytxt.TemplateHelper, Flytxt.UserBehavior],
+  behaviors: [Flytxt.webL10n, Flytxt.TemplateHelper],
   
   properties: {
     href: {
