@@ -21,5 +21,5 @@ Polymer({
   
   elvis: function(condition, success, failure) {
     return condition ? success : failure;
-  },
+  }
 });
