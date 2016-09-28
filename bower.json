@@ -17,5 +17,9 @@
   "homepage": "https://github.com/flytxt/flytxt-breadcrumb",
   "ignore": [
     "/.*"
-  ]
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "flytxt-breadcrumbs":"flytxt/flytxt-breadcrumbs"
+  },
 }

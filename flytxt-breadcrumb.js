@@ -1,8 +1,6 @@
 Polymer({
   is: 'flytxt-breadcrumb',
   
-  behaviors: [Flytxt.webL10n, Flytxt.TemplateHelper],
-  
   properties: {
     href: {
       type: String,
@@ -14,9 +12,14 @@ Polymer({
     }
   },
   
-  switchUrl: function() {
+  switchUrl: function(e) {
     if (this.href) {
       app.$.router.go(this.href);
     }
-  }
+    e.stopPropagation();
+  },
+  
+  elvis: function(condition, success, failure) {
+    return condition ? success : failure;
+  },
 });
