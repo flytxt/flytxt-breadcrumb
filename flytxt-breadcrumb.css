@@ -15,3 +15,6 @@ paper-button {
 iron-icon {
   @apply(--breadcrumb-icon);
 }
+paper-icon-button {
+  @apply(--breadcrumb-icon-button);
+}

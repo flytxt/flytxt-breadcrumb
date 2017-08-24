@@ -9,6 +9,11 @@ Polymer({
     
     label: {
       type: String
+    },
+    
+    icon: {
+      type: String,
+      value: 'none'
     }
   },
   
@@ -21,5 +26,9 @@ Polymer({
   
   elvis: function(condition, success, failure) {
     return condition ? success : failure;
+  },
+  
+  _ifIconIsNull: function(icon) {
+    return icon === 'none';
   }
 });
