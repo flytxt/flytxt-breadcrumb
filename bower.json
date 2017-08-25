@@ -1,6 +1,6 @@
 {
   "name": "flytxt-breadcrumb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     "Priyanka C V"
   ],
@@ -20,6 +20,6 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.0.0",
-    "flytxt-breadcrumbs":"flytxt/flytxt-breadcrumbs"
+    "flytxt-breadcrumbs":"flytxt/flytxt-breadcrumbs#v1.0.1"
   }
 }
