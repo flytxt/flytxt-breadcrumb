@@ -18,7 +18,6 @@
     "/.*"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.0.0",
-    "flytxt-breadcrumbs":"flytxt/flytxt-breadcrumbs#v1.0.1"
+    "polymer": "Polymer/polymer#^1.0.0"
   }
 }
