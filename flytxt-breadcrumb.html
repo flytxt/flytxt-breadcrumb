@@ -21,8 +21,8 @@ SOFTWARE.
 
 -->
 <dom-module id="flytxt-breadcrumb">
-  <link rel="import" type="css" href="flytxt-breadcrumb.css">
   <template>
+  <link rel="import" type="css" href="flytxt-breadcrumb.css">
     <template is="dom-if" if="[[ !_ifIconIsNull(icon) ]]">
       <paper-icon-button id="iconFormat" on-tap="switchUrl" noink class$="[[ elvis(href, 'previous', 'current') ]]" title="[[ label ]]" src="../../images/[[ icon ]].svg"></paper-icon-button>&nbsp;
     </template>
